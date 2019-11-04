@@ -1,3 +1,11 @@
+# MY NOTES Moveit workshop 2019 Macau
+
+* `roslaunch moveit_task_constructor_demo demo.launch`
+
+* `rosrun moveit_task_constructor_demo cartesian.py`
+
+* have fun
+
 # MoveIt Task Constructor Framework
 
 The Task Constructor framework provides a flexible and transparent way to define and plan actions that consist of *multiple interdependent* subtasks.
