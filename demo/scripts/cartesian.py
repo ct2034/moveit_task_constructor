@@ -34,6 +34,12 @@ move.group = group
 move.setDirection(Vector3Stamped(header=header, vector=Vector3(0,-0.3,0)))
 task.add(move)
 
+# another time
+move = stages.MoveRelative("y II 0.5", cartesian)
+move.group = group
+move.setDirection(Vector3Stamped(header=header, vector=Vector3(0,0.1,0)))
+task.add(move)
+
 # rotate about z
 move = stages.MoveRelative("z +90°", cartesian)
 move.group = group
